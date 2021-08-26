@@ -21,6 +21,7 @@ public class ks {
 	public static double rand(double[] x, int a, int c, int m) {
 		double sum = 0;
 		System.out.println("Random Numbers Generated for Variation 1: ");
+		System.out.println("Dexter is Here");
 		for(int i = 1; i < m; i++){
             x[i] = (((x[i - 1] * a) + c) % m);
 		}
